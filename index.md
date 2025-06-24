@@ -10,8 +10,8 @@ description: PhD Candidate in Environmental Biology
   flex-wrap: wrap;
 }
 .sidebar {
-  flex: 1 1 250px;
-  max-width: 300px;
+  flex: 1 1 200px;
+  max-width: 350px;
   margin-right: 2rem;
   padding: 1rem;
   background-color: #f9f9f9;
@@ -19,8 +19,8 @@ description: PhD Candidate in Environmental Biology
   text-align: center;
 }
 .sidebar img {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -36,7 +36,7 @@ description: PhD Candidate in Environmental Biology
 
 <div class="container">
   <div class="sidebar">
-    <img src="assets/images/Headshot.png"/>
+    <img src="Headshot.png"/>
     <div class="contact-info">
       <strong>c.kimballrhines001 at umb dot edu</strong><br>
       cooper@gmail.com<br>
@@ -46,6 +46,6 @@ description: PhD Candidate in Environmental Biology
   <div class="main-content">
     #About Me
 
-    Information to be edited later about me.
+    Information to be edited later about me. Test!
   </div>
 </div>
