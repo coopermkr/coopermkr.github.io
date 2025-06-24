@@ -8,10 +8,11 @@ description: PhD Candidate in Environmental Biology
 .container {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 .sidebar {
   flex: 1 1 150px;
-  max-width: 250px;
+  max-width: 300px;
   margin-right: 2rem;
   padding: 1rem;
   background-color: #f9f9f9;
