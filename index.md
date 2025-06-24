@@ -43,11 +43,13 @@ description: PhD Candidate in Environmental Biology
       <a href="https://github.com/coopermkr" target="_blank">github.com/coopermkr</a>
     </div>
   </div>
-  <div class="main-content">
-    # About Me
-  </div>
 </div>
 
 # About Me
-    I am interested in how plants change in response to environmental pollutants and how these adaptations can be used to clean up contaminated sites. My research investigates these topics through a genetic lens using the salt marsh plant Salicornia depressa, which is a potential phytoremediator. Outside the lab, I am easily distracted by butterflies and will often interrupt myself to point one out if I know the species. 
 
+My research focuses on applying genomic techniques to inform conservation policy and practice. 
+I mainly work with ecosystem managers to identify and answer questions about population structure, 
+genetic diversity, and inbreeding in plants that form the foundation of their restoration projects. 
+I work with short reads, long reads, DNA, RNA, and methylation to give managers the best recommendations I can. 
+
+When not in the lab, I am easily distracted by butterflies and will often interrupt myself to point one out if I know the species.
