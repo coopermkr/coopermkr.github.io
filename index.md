@@ -12,7 +12,7 @@ description: PhD Candidate in Environmental Biology
 }
 .sidebar {
   flex: 1 1 150px;
-  max-width: 300px;
+  max-width: 350px;
   margin-right: 2rem;
   padding: 1rem;
   background-color: #f9f9f9;
@@ -48,7 +48,9 @@ description: PhD Candidate in Environmental Biology
   <div class="main-content">
     <h1>About Me</h1>
     <p>
-	My research focuses on applying genomic techniques to inform conservation policy and practice. I mainly work with ecosystem managers to identify and answer questions about population structure, genetic diversity, and inbreeding in plants that form the foundation of their restoration projects. I work with short reads, long reads, DNA, RNA, and methylation to give managers the best recommendations I can. When not in the lab, I am easily distracted by butterflies and will often interrupt myself to point one out if I know the species.
+	My research focuses on applying genomic techniques to inform conservation policy and practice. I mainly work with ecosystem managers to identify and answer questions about population structure, genetic diversity, and inbreeding in plants that form the foundation of their restoration projects. I work with short reads, long reads, DNA, RNA, and methylation to give managers the best recommendations I can. 
+	
+	When not in the lab, I am easily distracted by butterflies and will often interrupt myself to point one out if I know the species.
     </p>
   </div>
 </div>
