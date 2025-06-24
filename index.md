@@ -41,8 +41,10 @@ description: PhD Candidate in Environmental Biology
     <div class="contact-info">
       <strong>c.kimballrhines001 at umb dot edu</strong>
       <a href="https://linkedin.com/in/cmkr" target="_blank">linkedIn</a>
+
       <a href="https://github.com/coopermkr" target="_blank">github</a>
-      <a href="/resume.pdf download>Download CV</a>
+
+      <a href="/cv.pdf" download>Download CV</a>
     </div> 
   </div>
 
