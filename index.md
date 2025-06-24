@@ -10,7 +10,7 @@ description: PhD Candidate in Environmental Biology
   flex-wrap: wrap;
 }
 .sidebar {
-  flex: 1 1 200px;
+  flex: 1 1 150px;
   max-width: 250px;
   margin-right: 2rem;
   padding: 1rem;
@@ -38,23 +38,16 @@ description: PhD Candidate in Environmental Biology
   <div class="sidebar">
     <img src="Headshot.png"/>
     <div class="contact-info">
-      <strong>c.kimballrhines001 \nat umb dot edu</strong>
+      <strong>c.kimballrhines001 at umb dot edu</strong>
       <a href="https://linkedin.com/in/cmkr" target="_blank">linkedin.com/in/cmkr</a>
       <a href="https://github.com/coopermkr" target="_blank">github.com/coopermkr</a>
     </div> 
   </div>
 
   <div class="main-content">
-    <header>About Me</header>
-    My research focuses on applying genomic techniques to inform conservation policy and practice. I mainly work with ecosystem managers to identify and answer questions about population structure, genetic diversity, and inbreeding in plants that form the foundation of their restoration projects. I work with short reads, long reads, DNA, RNA, and methylation to give managers the best recommendations I can. When not in the lab, I am easily distracted by butterflies and will often interrupt myself to point one out if I know the species.
+    <h1>About Me</h1>
+    <p>
+	My research focuses on applying genomic techniques to inform conservation policy and practice. I mainly work with ecosystem managers to identify and answer questions about population structure, genetic diversity, and inbreeding in plants that form the foundation of their restoration projects. I work with short reads, long reads, DNA, RNA, and methylation to give managers the best recommendations I can. When not in the lab, I am easily distracted by butterflies and will often interrupt myself to point one out if I know the species.
+    </p>
   </div>
 </div>
-
-# About Me
-
-My research focuses on applying genomic techniques to inform conservation policy and practice. 
-I mainly work with ecosystem managers to identify and answer questions about population structure, 
-genetic diversity, and inbreeding in plants that form the foundation of their restoration projects. 
-I work with short reads, long reads, DNA, RNA, and methylation to give managers the best recommendations I can. 
-
-When not in the lab, I am easily distracted by butterflies and will often interrupt myself to point one out if I know the species.
