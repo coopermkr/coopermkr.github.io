@@ -14,14 +14,16 @@ description: PhD Candidate in Environmental Biology
 <style>
 .research-section {
   display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 2rem;
-  gap: 1.5rem;
+  flex-direction: row;
   align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  flex-wrap: nowrap;
 }
 
 .research-image {
-  flex: 1 1 40%;
+  flex: 0 0 40%;
   max-width: 40%;
 }
 
@@ -34,7 +36,7 @@ description: PhD Candidate in Environmental Biology
 }
 
 .research-text {
-  flex: 1 1 58%;
+  flex: 1;
 }
 
 #lightbox-modal {
@@ -52,6 +54,18 @@ description: PhD Candidate in Environmental Biology
   max-width: 90%;
   max-height: 90%;
   border-radius: 8px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .research-section {
+    flex-direction: column;
+  }
+  .research-image,
+  .research-text {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
 }
 </style>
 
@@ -79,41 +93,38 @@ description: PhD Candidate in Environmental Biology
   });
 </script>
 
-<!-- Project 1 -->
 <div class="research-section">
   <div class="research-image">
-    <img src="/manhattans.png">
+    <img src="/manhattans.png" alt="Project 1">
   </div>
   <div class="research-text">
     <h2>Methylation</h2>
     <p>
-      Description of Project 1. You can include collaborators, goals, methods, and key findings.
+      Description of Project 1. This section details the goals, collaborators, and outcomes of your research.
     </p>
   </div>
 </div>
 
-<!-- Project 2 -->
 <div class="research-section">
   <div class="research-image">
-    <img src="/sal.jpg">
+    <img src="/sal.jpg" alt="Project 2">
   </div>
   <div class="research-text">
     <h2>Genome Assembly</h2>
     <p>
-      Description of Project 2. Fieldwork, lab work, modeling, and interesting outcomes can go here.
+      Description of Project 2. This might cover methods, field sites, experimental designs, or data analysis.
     </p>
   </div>
 </div>
 
-<!-- Project 3 -->
 <div class="research-section">
   <div class="research-image">
-    <img src="shannonDID.png">
+    <img src="/shannonDID.png" alt="Project 3">
   </div>
   <div class="research-text">
     <h2>Policy Analysis</h2>
     <p>
-      Description of Project 3. Highlight significance, contributions, or links to publications.
+      Description of Project 3. You could also include links to publications or figures here.
     </p>
   </div>
 </div>
