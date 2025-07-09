@@ -18,7 +18,7 @@ description: PhD Candidate in Environmental Biology
 
 .research-photos {
   flex: 1 1 40%;
-  max-width: 300px;
+  max-width: 40%;
   display: flex;
   flex-direction: column;
 }
@@ -33,7 +33,7 @@ description: PhD Candidate in Environmental Biology
 }
 
 .research-content {
-  flex: 2 1 55%;
+  flex: 2 1 65%;
 }
 
 research-section {
