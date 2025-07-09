@@ -4,13 +4,6 @@ title: Cooper Kimball-Rhines
 description: PhD Candidate in Environmental Biology
 ---
 
-<div class="top-nav">
-  <nav>
-    <a href="/index" class="nav-link">About Me</a>
-    <a href="/research" class="nav-link">Research</a>
-  </nav>
-</div>
-
 <style>
 .container {
   display: flex;
