@@ -9,51 +9,55 @@ description: PhD Candidate in Environmental Biology
   <a href="/research">Research</a>
 </nav>
 
+<h1>Research</h1>
+
 <style>
-.container {
+.research-section {
   display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
+  margin-bottom: 2rem;
+  gap: 1.5rem;
+  align-items: flex-start;
 }
 
-.research-photos {
+.research-image {
   flex: 1 1 40%;
   max-width: 40%;
-  display: flex;
-  flex-direction: column;
 }
 
-.research-photos img {
-  flex: 1;
-  min-height: 120px;
+.research-image img {
   width: 100%;
+  height: auto;
   object-fit: cover;
   border-radius: 8px;
-  margin-bottom: 1rem;
+  cursor: pointer;
 }
 
-.research-content {
-  flex: 2 1 55%;
+.research-text {
+  flex: 1 1 58%;
 }
 
-research-section {
-  margin-bottom: 2rem;
+#lightbox-modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
 }
 
-research-section h2 {
-  margin-top 0;
+#lightbox-modal img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
 }
-
-.main-content {
-  flex: 3 1 600px;
-}
-
 </style>
 
-<!-- Lightbox modal -->
-<div id="lightbox-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; 
-  background:rgba(0,0,0,0.8); z-index:9999; justify-content:center; align-items:center;">
-  <img id="lightbox-image" src="" alt="Enlarged Image" style="max-width:90%; max-height:90%; border-radius:8px;" />
+<!-- Lightbox Modal -->
+<div id="lightbox-modal">
+  <img id="lightbox-image" src="" alt="Expanded Image" />
 </div>
 
 <script>
@@ -61,8 +65,7 @@ research-section h2 {
     const modal = document.getElementById("lightbox-modal");
     const modalImg = document.getElementById("lightbox-image");
 
-    document.querySelectorAll(".research-photos img").forEach(img => {
-      img.style.cursor = "pointer";
+    document.querySelectorAll(".research-image img").forEach(img => {
       img.addEventListener("click", () => {
         modal.style.display = "flex";
         modalImg.src = img.src;
@@ -76,41 +79,41 @@ research-section h2 {
   });
 </script>
 
-<div class="container">
-  <div class="research-photos">
+<!-- Project 1 -->
+<div class="research-section">
+  <div class="research-image">
     <img src="/manhattans.png">
-    <img src="sal.jpg">
-    <img src="/shannonDID.png">
   </div>
-
-  <div class="research-content">
-    <div class="research-section">
-    <h2>Project 1</h2>
+  <div class="research-text">
+    <h2>Methylation</h2>
     <p>
-	My research focuses on applying genomic techniques to inform conservation policy and practice. I mainly work with ecosystem managers to identify and answer questions about population structure, genetic diversity, and inbreeding in plants that form the foundation of their restoration projects. I work with short reads, long reads, DNA, RNA, and methylation to give managers the best recommendations I can. 
-    </p>
-    <p>
-	When not in the lab, I am easily distracted by butterflies and will often interrupt myself to point one out if I know the species.
+      Description of Project 1. You can include collaborators, goals, methods, and key findings.
     </p>
   </div>
+</div>
 
-  <div class="research-section">
-    <h2>Project 2</h2>
+<!-- Project 2 -->
+<div class="research-section">
+  <div class="research-image">
+    <img src="/sal.jpg">
+  </div>
+  <div class="research-text">
+    <h2>Genome Assembly</h2>
     <p>
-	My research focuses on applying genomic techniques to inform conservation policy and practice. I mainly work with ecosystem managers to identify and answer questions about population structure, genetic diversity, and inbreeding in plants that form the foundation of their restoration projects. I work with short reads, long reads, DNA, RNA, and methylation to give managers the best recommendations I can. 
-    </p>
-    <p>
-	When not in the lab, I am easily distracted by butterflies and will often interrupt myself to point one out if I know the species.
+      Description of Project 2. Fieldwork, lab work, modeling, and interesting outcomes can go here.
     </p>
   </div>
+</div>
 
-  <div class="research-section">
-    <h2>Project 3</h2>
+<!-- Project 3 -->
+<div class="research-section">
+  <div class="research-image">
+    <img src="shannonDID.png">
+  </div>
+  <div class="research-text">
+    <h2>Policy Analysis</h2>
     <p>
-	My research focuses on applying genomic techniques to inform conservation policy and practice. I mainly work with ecosystem managers to identify and answer questions about population structure, genetic diversity, and inbreeding in plants that form the foundation of their restoration projects. I work with short reads, long reads, DNA, RNA, and methylation to give managers the best recommendations I can. 
-    </p>
-    <p>
-	When not in the lab, I am easily distracted by butterflies and will often interrupt myself to point one out if I know the species.
+      Description of Project 3. Highlight significance, contributions, or links to publications.
     </p>
   </div>
 </div>
