@@ -4,6 +4,11 @@ title: Cooper Kimball-Rhines
 description: PhD Candidate in Environmental Biology
 ---
 
+<nav style="text-align: right; margin-top: 0;">
+  <a href="/index" style="margin-right: 1rem;">About Me</a>
+  <a href="/research">Research</a>
+</nav>
+
 <style>
 .container {
   display: flex;
@@ -49,10 +54,6 @@ description: PhD Candidate in Environmental Biology
   </div>
 
   <div class="main-content">
-    <nav style="text-align: right; margin-top: 0;">
-      <a href="/" style="margin-right: 1rem;">About Me</a>
-      <a href="/research">Research</a>
-    </nav>
     <h1>About Me</h1>
     <p>
 	My research focuses on applying genomic techniques to inform conservation policy and practice. I mainly work with ecosystem managers to identify and answer questions about population structure, genetic diversity, and inbreeding in plants that form the foundation of their restoration projects. I work with short reads, long reads, DNA, RNA, and methylation to give managers the best recommendations I can. 
