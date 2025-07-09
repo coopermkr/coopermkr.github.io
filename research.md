@@ -33,7 +33,7 @@ description: PhD Candidate in Environmental Biology
 }
 
 .research-content {
-  flex: 2 1 65%;
+  flex: 2 1 55%;
 }
 
 research-section {
