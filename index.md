@@ -4,14 +4,13 @@ title: Cooper Kimball-Rhines
 description: PhD Candidate in Environmental Biology
 ---
 
-<div class="top-nav">
-  <nav>
-    <a href="/index" class="nav-link">About Me</a>
-    <a href="/research" class="nav-link">Research</a>
-  </nav>
-</div>
-
 <style>
+.page-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -43,7 +42,7 @@ description: PhD Candidate in Environmental Biology
 .top-nav {
   text-align: right;
   margin-bottom: 2rem;
-  padding: 1rem 0;
+  padding-bottom: 1rem;
   border-bottom: 1px solid #e0e0e0;
 }
 
@@ -63,6 +62,15 @@ description: PhD Candidate in Environmental Biology
 }
 
 </style>
+
+
+<div class="page-wrapper">
+  <div class="top-nav">
+    <nav>
+      <a href="/index" class="nav-link">About Me</a>
+      <a href="/research" class="nav-link">Research</a>
+    </nav>
+  </div>
 
 <div class="container">
   <div class="sidebar">
@@ -86,4 +94,5 @@ description: PhD Candidate in Environmental Biology
 	When not in the lab, I am easily distracted by butterflies and will often interrupt myself to point one out if I know the species.
     </p>
   </div>
+</div>
 </div>

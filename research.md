@@ -4,14 +4,13 @@ title: Cooper Kimball-Rhines
 description: PhD Candidate in Environmental Biology
 ---
 
-<div class="top-nav">
-  <nav>
-    <a href="/index" class="nav-link">About Me</a>
-    <a href="/research" class="nav-link">Research</a>
-  </nav>
-</div>
-
 <style>
+.page-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
 .research-section {
   display: flex;
   flex-direction: row;
@@ -70,7 +69,7 @@ description: PhD Candidate in Environmental Biology
 .top-nav {
   text-align: right;
   margin-bottom: 2rem;
-  padding: 1rem 0;
+  padding: 1rem;
   border-bottom: 1px solid #e0e0e0;
 }
 
@@ -114,6 +113,15 @@ description: PhD Candidate in Environmental Biology
   });
 </script>
 
+<div class="page-wrapper">
+
+  <div class="top-nav">
+    <nav>
+      <a href="/index" class="nav-link">About Me</a>
+      <a href="/research" class="nav-link">Research</a>
+    </nav>
+  </div>
+
 <div class="research-section">
   <div class="research-image">
     <img src="/manhattans.png" alt="Project 1">
@@ -148,4 +156,5 @@ description: PhD Candidate in Environmental Biology
       Description of Project 3. You could also include links to publications or figures here.
     </p>
   </div>
+</div>
 </div>
