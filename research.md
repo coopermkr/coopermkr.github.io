@@ -113,10 +113,21 @@ description: PhD Candidate in Environmental Biology
     });
   });
 </script>
+<div class="research-section">
+  <div class="research-image">
+    <img src="/nevp.jpg" alt="Project 1">
+  </div>
+  <div class="research-text">
+    <h2>Methylation</h2>
+    <p>
+      Pine barren ecosystems are globally rare, among the most biodiverse areas in the temperate United States, and on the brink of disappearance. The pine barren legume Lupinus perennis (sundial lupine) serves as host plant to over a dozen rare insect species, including the federally endangered Karner Blue Butterfly and state threatened Frosted Elfin Butterfly. When restoring pine barren species, managers must first establish strong plant populations. Traditional wisdom states that “local is best” when sourcing seeds for a restoration, but this advice fails to consider the adverse effects of propagating inbred plants with bottlenecked diversity. We worked with state and nonprofit ecosystem managers to sequence seven Northeast sites, representing the majority of extant L. perennis populations that are under conservation protection or have seed bank accessions in the region. We used a ddRAD method to obtain a filtered set of 46,000 SNPs. Population area did not predict observed population heterozygosity (p = 0.36) or inbreeding (p = 0.42). A mantel test with Pearson’s correlation indicates population isolation by geographic distance (r = 0.754, p = 0.001). We modeled the genetic effects of translocating seeds from 30 year old seed bank accessions and from the geographically closest population for the Vermont population. We find that seed translocations greatly benefit genetic diversity and effective population size in this population, while inaction will lead to likely extirpation of this species in the state of Vermont. Our results illustrate the complexity in selecting a healthy restoration source population and suggest that the “local is best” adage does not match practical reality. Dividing populations by political boundaries, especially when those boundaries arbitrarily divide historically connected ecosystems, should not be taken as a one-size fits all solution for restoration.
+    </p>
+  </div>
+</div>
 
 <div class="research-section">
   <div class="research-image">
-    <img src="/manhattans.png" alt="Project 1">
+    <img src="/manhattans.png" alt="Project 2">
   </div>
   <div class="research-text">
     <h2>Methylation</h2>
@@ -128,7 +139,7 @@ description: PhD Candidate in Environmental Biology
 
 <div class="research-section">
   <div class="research-image">
-    <img src="/sal.jpg" alt="Project 2">
+    <img src="/sal.jpg" alt="Project 3">
   </div>
   <div class="research-text">
     <h2>Genome Assembly</h2>
@@ -140,7 +151,7 @@ description: PhD Candidate in Environmental Biology
 
 <div class="research-section">
   <div class="research-image">
-    <img src="/shannonDID.png" alt="Project 3">
+    <img src="/shannonDID.png" alt="Project 4">
   </div>
   <div class="research-text">
     <h2>Policy Analysis</h2>
