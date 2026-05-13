@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Cooper Kimball-Rhines
-description: PhD Candidate in Environmental Biology
+title: Cooper Kimball-Rhines, Ph.D.
+description: | Conservation | Data Science | Genomics |
 ---
 <div class="top-nav">
   <nav>
