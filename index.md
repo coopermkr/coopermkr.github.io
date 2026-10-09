@@ -82,9 +82,12 @@ description: Conservation, Data Science, Genomics
   <div class="main-content">
     <h1>About Me</h1>
     <p>
-	As of September, 2026 I am a Postdoctoral Research Associate in the UMass Amherst Spatial Ecology Lab with Dr. Bethany Bradley, a Northeast Climate Adaptation Science Center (NE CASC) fellow and leadership team member of the Northeast Regional Invasive Species and Climate Change management (NE RISCC) and Climate-Smart Native Plant (C-SNaP) networks. 
+	As of September 2026 I am a Postdoctoral Research Associate in the UMass Amherst Spatial Ecology Lab with Dr. Bethany Bradley, a Northeast Climate Adaptation Science Center (NE CASC) fellow and leadership team member of the Northeast Regional Invasive Species and Climate Change management (NE RISCC) and Climate-Smart Native Plant (C-SNaP) networks. 
+    </p>
 
-I have experience working for or with local, state, and federal government to research and implement biodiversity policy. My current research focuses on applying genomic techniques to inform conservation policy and practice. I mainly work with ecosystem managers to identify and answer questions about population structure, genetic diversity, and inbreeding in plants that form the foundation of their restoration projects. I work with short reads, long reads, DNA, RNA, methylation, causal statistics, and ecological models to gather and assess evidence to answer complex management questions.
+    <p>
+
+	I have experience working for or with local, state, and federal government to research and implement biodiversity policy. My current research focuses on applying genomic techniques to inform conservation policy and practice. I mainly work with ecosystem managers to identify and answer questions about population structure, genetic diversity, and inbreeding in plants that form the foundation of their restoration projects. I work with short reads, long reads, DNA, RNA, methylation, causal statistics, and ecological models to gather and assess evidence to answer complex management questions.
     </p>
     <p>
 
