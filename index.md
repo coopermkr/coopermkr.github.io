@@ -68,7 +68,7 @@ description: Conservation, Data Science, Genomics
   <div class="sidebar">
     <img src="Headshot.png"/>
     <div class="contact-info">
-      <strong>c.kimballrhines001 at umb dot edu</strong>
+      <strong>ckimballrhin at umass dot edu</strong>
       <a href="https://linkedin.com/in/cmkr" target="_blank">linkedIn</a>
 
       <a href="https://github.com/coopermkr" target="_blank">github</a>
